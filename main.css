@@ -1,0 +1,69 @@
+body {
+   background-color: #e9e9e9;
+   padding: 40px;
+  font-size: 18px;
+}
+
+input {
+  height: 35px;
+}
+
+.container {
+  max-width: 600px;
+}
+
+.btn,
+.btn-button,
+.btn-success,
+.btn-danger{
+  border-radius: 0px;
+  transition: background-color .2s ease;
+}
+
+#app {
+   background-color: #ffffff;
+     box-shadow: 2px 2px 2px rgba(0,0,0,.1);
+   padding: 15px inherit;
+}
+
+#js-form {
+   padding-top: 15px;
+}
+
+#newPost {
+  overflow: hidden;
+  
+}
+
+#postInputContainer {
+   padding-right: 100px;
+}
+
+#js-post {
+  width: 100%;
+}
+
+#addPost {
+  float: right;
+}
+
+.js-delete {
+  display: inline;
+  float: left;
+  
+}
+
+ul {
+   padding: 0px;
+   margin: 0px;
+   list-style: none;
+}
+
+li {
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+li button {
+   margin-right: 10px;
+}

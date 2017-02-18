@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>WordPress Post-er</title>
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="main.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="app.js" type="text/javascript"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <h1>
+       WordPress Postrrr
+     </h1>
+      <p class="lead">
+        A simple, single-page app using the WordPress Rest API to manage posts (titles only ;-)
+      </p>
+    </div>
+  </div>
+
+  <div id="app" class="container">
+    <div id="statusBar" class="row">
+      <div class="col-xs-12">
+        <form id="js-form">
+          <div class="form-group">
+            <button id="addPost" type="submit" class="btn btn-success">Add Post</button>
+            <div id="postInputContainer">
+                <input type="text" id="js-post" placeholder="Post Title">
+            </div>
+            
+          </div>
+        </form>
+      </div>
+    </div>
+    <div id="posts" class="row">
+      <div class="col-xs-12">
+        <ul id="js-posts">
+        </ul>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
