@@ -2,7 +2,7 @@ var list;
 
 function getPosts() {
   $.ajax({
-    url: 'http://spokencode.com/wp-json/wp/v2/posts',
+    url: 'https://spokencode.com/wp-json/wp/v2/posts',
     type: 'GET',
     success: function(result) {
 
@@ -72,7 +72,7 @@ function newPost(form, status) {
 
 function ajaxCallToPosts(method, data, id) {
   
-  var url = 'http://spokencode.com/wp-json/wp/v2/posts';
+  var url = 'https://spokencode.com/wp-json/wp/v2/posts';
   
   if (id) {
     url += '/' + id;
